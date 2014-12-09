@@ -1,4 +1,4 @@
-object-utils
+better-objects
 ============
 
 ### Implementation for Object.clone, Object.equals
@@ -21,13 +21,13 @@ You can choose not to add the methods to the Object prototype, it's really simpl
 
 #### install
 ```shell
-$ npm install object-utils
+$ npm install better-objects
 ```
 #### and in the code (once)
 ```javascript
-require('object-utils');
+require('better-objects');
 //or just 
-<script src="node_modules/object-utils/index.js"></script>
+<script src="node_modules/better-objects/index.js"></script>
 ```
 #### using clone: 
 ```javascript
