@@ -1,0 +1,28 @@
+{
+  "name": "better-objects",
+  "version": "1.0.0",
+  "description": "Clone and Equals methods for javascript objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andrepadez/better-objects.git"
+  },
+  "keywords": [
+    "Object",
+    "equals",
+    "clone"
+  ],
+  "author": "andre.padez@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrepadez/better-objects/issues"
+  },
+  "homepage": "https://github.com/andrepadez/better-objects",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  }
+}
