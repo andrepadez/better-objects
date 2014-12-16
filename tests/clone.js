@@ -11,6 +11,8 @@ var obj = {
         a: 10,
         b: 20
     },
+    "date": new Date(),
+    "regExp": /asdfgh/i,
     "array": [0, 1, 2, 3, 4, 5],
     "superArray": [
         "string",
