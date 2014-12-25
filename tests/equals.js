@@ -125,8 +125,15 @@ describe('Testing Object.equals', function (){
         assert.notOk(diffObj.equals(objOne));
     });
 
+    it('should not be equals after changing a value inside a deep array', function(){
+        var diffObj = objOne.clone();
+        diffObj.superArray[3][2] = 'something else';
+        assert.notOk(objOne.equals(diffObj));
+        assert.notOk(diffObj.equals(objOne));
+    });
+
     it('an object should be equal to itself', function(){
-        assert.ok(objOne, objOne);
-        assert.ok(objTwo, objTwo);
+        assert.ok(objOne.equals(objOne));
+        assert.ok(objTwo.equals(objTwo));
     });
 });

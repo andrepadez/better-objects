@@ -77,9 +77,6 @@ describe('Testing Object.clone', function (){
     it('object and clone should be equal', function(){
         assert.ok(obj.equals(clone));
     });
-    // it('assert.deepEqual should work also', function(){
-    //     assert.deepEqual(obj, clone);
-    // });
 });
 
 describe('testing Array.clone', function(){
