@@ -1,11 +1,10 @@
 {
     "src_files": [
         "node_modules/chai/chai.js",
-        "index.js",
         "tests/**/*.js"
     ],
     "framework": "mocha",
-    "launch_in_ci": ["PhantomJS"],
-    "launch_in_dev": ["Chrome", "PhantomJS"],
+    "launch_in_ci": ["Chrome", "PhantomJS"],
+    "launch_in_dev": ["PhantomJS"],
     "reporting": "spec"
 }
